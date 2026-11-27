@@ -14,7 +14,7 @@ Why Do We Need a Parser for Clinical Outputs RTF?
 
 **Why might this be an unavoidable challenge when using LLMs to process outputs?** The underlying challenge: RTF is designed for human-presentation, while LLMs process tokens within a limited context window. A parser helps bridge this gap.
 
-Noted that RTF are now allowed to be integrated with unrestricted LLM. Here the benchmark used the public example ADaM dataset from R [{pharmaverseadam}](https://github.com/pharmaverse/pharmaverseadam), [{rtfreporter}](https://github.com/ichirio/rtfreporter) package .
+Noted that RTF are now allowed to be integrated with unrestricted LLM. Here the benchmark used the public example ADaM dataset from R [{pharmaverseadam}](https://github.com/pharmaverse/pharmaverseadam),package .
 
 ### 1. Create a solid parser -  convert RTF to toon
 - Reatain title, footnote, header, footer, column, row label&values, indentation, blank row,grid line, alignment space, page into toon file;
@@ -42,7 +42,7 @@ $$D_{\\text{RTF}} = \\frac{\\text{RTF File Size (KiB)}}{\\text{Number of Pages i
 
 Token usage decreased across all tested files, with per-file reductions ranging from 51.21% to 86.96%. The overall token reduction was 77.83%, while the median per-file reduction was 68.52%. Most tested files achieved reductions between 50% and 70%
 
-Using tiktoken version 0.14.0 with the o200k_base encoding to (count)[https://github.com/botsp/ReporTOON/blob/main/converter/count_gpt54_tokens.py] token at file level.
+Using tiktoken version 0.14.0 with the o200k_base encoding to [count](https://github.com/botsp/ReporTOON/blob/main/converter/count_gpt54_tokens.py) token at file level.
 
 
 <img width="9600" height="2800" alt="gpt54sidebyside800dpi" src="https://github.com/user-attachments/assets/74be0e5c-5ff2-4c51-b310-3f9c6d26bf20" />
