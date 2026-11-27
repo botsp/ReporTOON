@@ -23,7 +23,7 @@ Noted that RTF are now allowed to be integrated with unrestricted LLM. Here the 
 
 
 ### 2. Assess the conversion is realiable
-Firstly, assess the conversion is realiable and do not lose the key raw info of RTF, the toon would also reatin the layout info and enable we can restore back to RTF soley rely on converted toon file, This process is not intended for LLM use. It simply restores the TOON file to RTF to verify that no information was lost, confirm the reliability of the conversion, and support potential retrospective checks.
+Firstly, assess the conversion is realiable and do not lose the key raw info of RTF, the toon would also reatin the layout info and enable we can restore back to RTF soley rely on converted toon file, This process is not intended for LLM use. It simply restores the TOON file to RTF to verify that no information was lost, confirm the reliability of the conversion(use `Word Compare` to validate no changes), and support potential retrospective checks.
 
 Secondly, ensure Toon based on solid strcuture that contains all and same information as RTF, LLM can understand the toon as well as RTF.
 
