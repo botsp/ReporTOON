@@ -1,0 +1,3315 @@
+format: "sas-ods-rtf-toon-v9"
+source: "t_ae1.rtf"
+page_basis: "SAS ODS bookmark and section blocks; actual rendering not verified"
+cell_boundary_unit: "twips"
+alignment_codes: "l=left,r=right,c=center,j=justify"
+alignment_override_indexing: "0-based within each table block; unlisted cells are left-aligned"
+special_border_kind: "paragraph_tail_brdrb_drdrs is preserved verbatim after cell text"
+pages[21]:
+  - page_number: 1
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"Subjects with at least one TEAE","65 (75.6%)","68 (94.4%)","84 (87.5%)","217 (85.4%)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 2
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[17]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"CARDIAC DISORDERS","12 (14.0%)","14 (19.4%)","14 (14.6%)"," 40 (15.7%)"
+          0,"  ATRIAL FIBRILLATION"," 1 ( 1.2%)"," 2 ( 2.8%)"," 2 ( 2.1%)","  5 ( 2.0%)"
+          0,"  ATRIAL FLUTTER"," 0 ( 0.0%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  ATRIAL HYPERTROPHY"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  ATRIOVENTRICULAR BLOCK FIRST DEGREE"," 1 ( 1.2%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  ATRIOVENTRICULAR BLOCK SECOND DEGREE"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  BRADYCARDIA"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  BUNDLE BRANCH BLOCK LEFT"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  BUNDLE BRANCH BLOCK RIGHT"," 1 ( 1.2%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  CARDIAC DISORDER"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  CARDIAC FAILURE CONGESTIVE"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  MYOCARDIAL INFARCTION"," 4 ( 4.7%)"," 4 ( 5.6%)"," 2 ( 2.1%)"," 10 ( 3.9%)"
+          0,"  PALPITATIONS"," 0 ( 0.0%)"," 0 ( 0.0%)"," 2 ( 2.1%)","  2 ( 0.8%)"
+          0,"  SINUS ARRHYTHMIA"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  SINUS BRADYCARDIA"," 2 ( 2.3%)"," 8 (11.1%)"," 7 ( 7.3%)"," 17 ( 6.7%)"
+          0,"  SUPRAVENTRICULAR EXTRASYSTOLES"," 1 ( 1.2%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+          0,"  SUPRAVENTRICULAR TACHYCARDIA"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[68]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        - [7,1,"c"]
+        - [7,2,"c"]
+        - [7,3,"c"]
+        - [7,4,"c"]
+        - [8,1,"c"]
+        - [8,2,"c"]
+        - [8,3,"c"]
+        - [8,4,"c"]
+        - [9,1,"c"]
+        - [9,2,"c"]
+        - [9,3,"c"]
+        - [9,4,"c"]
+        - [10,1,"c"]
+        - [10,2,"c"]
+        - [10,3,"c"]
+        - [10,4,"c"]
+        - [11,1,"c"]
+        - [11,2,"c"]
+        - [11,3,"c"]
+        - [11,4,"c"]
+        - [12,1,"c"]
+        - [12,2,"c"]
+        - [12,3,"c"]
+        - [12,4,"c"]
+        - [13,1,"c"]
+        - [13,2,"c"]
+        - [13,3,"c"]
+        - [13,4,"c"]
+        - [14,1,"c"]
+        - [14,2,"c"]
+        - [14,3,"c"]
+        - [14,4,"c"]
+        - [15,1,"c"]
+        - [15,2,"c"]
+        - [15,3,"c"]
+        - [15,4,"c"]
+        - [16,1,"c"]
+        - [16,2,"c"]
+        - [16,3,"c"]
+        - [16,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 3
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[10]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[5]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"CARDIAC DISORDERS (continued)","12 (14.0%)","14 (19.4%)","14 (14.6%)"," 40 (15.7%)"
+          0,"  TACHYCARDIA"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  VENTRICULAR EXTRASYSTOLES"," 0 ( 0.0%)"," 1 ( 1.4%)"," 2 ( 2.1%)","  3 ( 1.2%)"
+          0,"  VENTRICULAR HYPERTROPHY"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  WOLFF-PARKINSON-WHITE SYNDROME"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[20]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[2]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"CONGENITAL, FAMILIAL AND GENETIC DISORDERS"," 0 ( 0.0%)"," 2 ( 2.8%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+          0,"  VENTRICULAR SEPTAL DEFECT"," 0 ( 0.0%)"," 2 ( 2.8%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+        cell_alignment_overrides[8]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[4]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"EAR AND LABYRINTH DISORDERS"," 1 ( 1.2%)"," 1 ( 1.4%)"," 2 ( 2.1%)","  4 ( 1.6%)"
+          0,"  CERUMEN IMPACTION"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  EAR PAIN"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  VERTIGO"," 0 ( 0.0%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+        cell_alignment_overrides[16]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 4
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[7]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"EYE DISORDERS"," 2 ( 2.3%)"," 1 ( 1.4%)"," 2 ( 2.1%)","  5 ( 2.0%)"
+          0,"  CONJUNCTIVAL HAEMORRHAGE"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  CONJUNCTIVITIS"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  EYE ALLERGY"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  EYE PRURITUS"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  EYE SWELLING"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  VISION BLURRED"," 0 ( 0.0%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+        cell_alignment_overrides[28]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 5
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[17]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"GASTROINTESTINAL DISORDERS","17 (19.8%)","19 (26.4%)","15 (15.6%)"," 51 (20.1%)"
+          0,"  ABDOMINAL DISCOMFORT"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  ABDOMINAL PAIN"," 1 ( 1.2%)"," 1 ( 1.4%)"," 3 ( 3.1%)","  5 ( 2.0%)"
+          0,"  CONSTIPATION"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  DIARRHOEA"," 9 (10.5%)"," 3 ( 4.2%)"," 5 ( 5.2%)"," 17 ( 6.7%)"
+          0,"  DYSPEPSIA"," 1 ( 1.2%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  DYSPHAGIA"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  FLATULENCE"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  GASTROINTESTINAL HAEMORRHAGE"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  GASTROOESOPHAGEAL REFLUX DISEASE"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  GLOSSITIS"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  HIATUS HERNIA"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  NAUSEA"," 3 ( 3.5%)"," 6 ( 8.3%)"," 3 ( 3.1%)"," 12 ( 4.7%)"
+          0,"  RECTAL HAEMORRHAGE"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  SALIVARY HYPERSECRETION"," 0 ( 0.0%)"," 4 ( 5.6%)"," 0 ( 0.0%)","  4 ( 1.6%)"
+          0,"  STOMACH DISCOMFORT"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  VOMITING"," 3 ( 3.5%)"," 6 ( 8.3%)"," 4 ( 4.2%)"," 13 ( 5.1%)"
+        cell_alignment_overrides[68]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        - [7,1,"c"]
+        - [7,2,"c"]
+        - [7,3,"c"]
+        - [7,4,"c"]
+        - [8,1,"c"]
+        - [8,2,"c"]
+        - [8,3,"c"]
+        - [8,4,"c"]
+        - [9,1,"c"]
+        - [9,2,"c"]
+        - [9,3,"c"]
+        - [9,4,"c"]
+        - [10,1,"c"]
+        - [10,2,"c"]
+        - [10,3,"c"]
+        - [10,4,"c"]
+        - [11,1,"c"]
+        - [11,2,"c"]
+        - [11,3,"c"]
+        - [11,4,"c"]
+        - [12,1,"c"]
+        - [12,2,"c"]
+        - [12,3,"c"]
+        - [12,4,"c"]
+        - [13,1,"c"]
+        - [13,2,"c"]
+        - [13,3,"c"]
+        - [13,4,"c"]
+        - [14,1,"c"]
+        - [14,2,"c"]
+        - [14,3,"c"]
+        - [14,4,"c"]
+        - [15,1,"c"]
+        - [15,2,"c"]
+        - [15,3,"c"]
+        - [15,4,"c"]
+        - [16,1,"c"]
+        - [16,2,"c"]
+        - [16,3,"c"]
+        - [16,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 6
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[16]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS","21 (24.4%)","36 (50.0%)","51 (53.1%)","108 (42.5%)"
+          0,"  APPLICATION SITE BLEEDING"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  APPLICATION SITE DERMATITIS"," 5 ( 5.8%)"," 7 ( 9.7%)"," 9 ( 9.4%)"," 21 ( 8.3%)"
+          0,"  APPLICATION SITE DESQUAMATION"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  APPLICATION SITE DISCHARGE"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  APPLICATION SITE DISCOLOURATION"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  APPLICATION SITE ERYTHEMA"," 3 ( 3.5%)","14 (19.4%)","13 (13.5%)"," 30 (11.8%)"
+          0,"  APPLICATION SITE INDURATION"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  APPLICATION SITE IRRITATION"," 3 ( 3.5%)"," 9 (12.5%)"," 9 ( 9.4%)"," 21 ( 8.3%)"
+          0,"  APPLICATION SITE PAIN"," 0 ( 0.0%)"," 2 ( 2.8%)"," 0 ( 0.0%)","  2 ( 0.8%)"
+          0,"  APPLICATION SITE PERSPIRATION"," 0 ( 0.0%)"," 2 ( 2.8%)"," 0 ( 0.0%)","  2 ( 0.8%)"
+          0,"  APPLICATION SITE PRURITUS"," 6 ( 7.0%)","21 (29.2%)","23 (24.0%)"," 50 (19.7%)"
+          0,"  APPLICATION SITE REACTION"," 1 ( 1.2%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  2 ( 0.8%)"
+          0,"  APPLICATION SITE SWELLING"," 0 ( 0.0%)"," 2 ( 2.8%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+          0,"  APPLICATION SITE URTICARIA"," 0 ( 0.0%)"," 1 ( 1.4%)"," 2 ( 2.1%)","  3 ( 1.2%)"
+          0,"  APPLICATION SITE VESICLES"," 1 ( 1.2%)"," 5 ( 6.9%)"," 5 ( 5.2%)"," 11 ( 4.3%)"
+        cell_alignment_overrides[64]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        - [7,1,"c"]
+        - [7,2,"c"]
+        - [7,3,"c"]
+        - [7,4,"c"]
+        - [8,1,"c"]
+        - [8,2,"c"]
+        - [8,3,"c"]
+        - [8,4,"c"]
+        - [9,1,"c"]
+        - [9,2,"c"]
+        - [9,3,"c"]
+        - [9,4,"c"]
+        - [10,1,"c"]
+        - [10,2,"c"]
+        - [10,3,"c"]
+        - [10,4,"c"]
+        - [11,1,"c"]
+        - [11,2,"c"]
+        - [11,3,"c"]
+        - [11,4,"c"]
+        - [12,1,"c"]
+        - [12,2,"c"]
+        - [12,3,"c"]
+        - [12,4,"c"]
+        - [13,1,"c"]
+        - [13,2,"c"]
+        - [13,3,"c"]
+        - [13,4,"c"]
+        - [14,1,"c"]
+        - [14,2,"c"]
+        - [14,3,"c"]
+        - [14,4,"c"]
+        - [15,1,"c"]
+        - [15,2,"c"]
+        - [15,3,"c"]
+        - [15,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 7
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[16]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS (continued)","21 (24.4%)","36 (50.0%)","51 (53.1%)","108 (42.5%)"
+          0,"  APPLICATION SITE WARMTH"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  ASTHENIA"," 1 ( 1.2%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  CHEST DISCOMFORT"," 0 ( 0.0%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  CHEST PAIN"," 0 ( 0.0%)"," 2 ( 2.8%)"," 0 ( 0.0%)","  2 ( 0.8%)"
+          0,"  CHILLS"," 1 ( 1.2%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+          0,"  FATIGUE"," 1 ( 1.2%)"," 5 ( 6.9%)"," 5 ( 5.2%)"," 11 ( 4.3%)"
+          0,"  FEELING ABNORMAL"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  FEELING COLD"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  INFLAMMATION"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  MALAISE"," 0 ( 0.0%)"," 2 ( 2.8%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+          0,"  OEDEMA"," 0 ( 0.0%)"," 0 ( 0.0%)"," 2 ( 2.1%)","  2 ( 0.8%)"
+          0,"  OEDEMA PERIPHERAL"," 2 ( 2.3%)"," 2 ( 2.8%)"," 1 ( 1.0%)","  5 ( 2.0%)"
+          0,"  PAIN"," 0 ( 0.0%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  PYREXIA"," 2 ( 2.3%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+          0,"  SECRETION DISCHARGE"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[64]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        - [7,1,"c"]
+        - [7,2,"c"]
+        - [7,3,"c"]
+        - [7,4,"c"]
+        - [8,1,"c"]
+        - [8,2,"c"]
+        - [8,3,"c"]
+        - [8,4,"c"]
+        - [9,1,"c"]
+        - [9,2,"c"]
+        - [9,3,"c"]
+        - [9,4,"c"]
+        - [10,1,"c"]
+        - [10,2,"c"]
+        - [10,3,"c"]
+        - [10,4,"c"]
+        - [11,1,"c"]
+        - [11,2,"c"]
+        - [11,3,"c"]
+        - [11,4,"c"]
+        - [12,1,"c"]
+        - [12,2,"c"]
+        - [12,3,"c"]
+        - [12,4,"c"]
+        - [13,1,"c"]
+        - [13,2,"c"]
+        - [13,3,"c"]
+        - [13,4,"c"]
+        - [14,1,"c"]
+        - [14,2,"c"]
+        - [14,3,"c"]
+        - [14,4,"c"]
+        - [15,1,"c"]
+        - [15,2,"c"]
+        - [15,3,"c"]
+        - [15,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 8
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[10]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[4]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"GENERAL DISORDERS AND ADMINISTRATION SITE CONDITIONS (continued)","21 (24.4%)","36 (50.0%)","51 (53.1%)","108 (42.5%)"
+          0,"  SUDDEN DEATH"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  SWELLING"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  ULCER"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[16]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[2]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"HEPATOBILIARY DISORDERS"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  HYPERBILIRUBINAEMIA"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[8]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[2]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"IMMUNE SYSTEM DISORDERS"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  HYPERSENSITIVITY"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[8]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 9
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[17]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"INFECTIONS AND INFESTATIONS","16 (18.6%)","13 (18.1%)"," 9 ( 9.4%)"," 38 (15.0%)"
+          0,"  BRONCHITIS"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  CELLULITIS"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  CERVICITIS"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  CYSTITIS"," 1 ( 1.2%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  2 ( 0.8%)"
+          0,"  EAR INFECTION"," 2 ( 2.3%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  2 ( 0.8%)"
+          0,"  GASTROENTERITIS VIRAL"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  HORDEOLUM"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  INFLUENZA"," 1 ( 1.2%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+          0,"  LOCALISED INFECTION"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  LOWER RESPIRATORY TRACT INFECTION"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  NASOPHARYNGITIS"," 2 ( 2.3%)"," 6 ( 8.3%)"," 4 ( 4.2%)"," 12 ( 4.7%)"
+          0,"  PNEUMONIA"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  RHINITIS"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  UPPER RESPIRATORY TRACT INFECTION"," 6 ( 7.0%)"," 3 ( 4.2%)"," 1 ( 1.0%)"," 10 ( 3.9%)"
+          0,"  URINARY TRACT INFECTION"," 2 ( 2.3%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  3 ( 1.2%)"
+          0,"  VAGINAL MYCOSIS"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[68]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        - [7,1,"c"]
+        - [7,2,"c"]
+        - [7,3,"c"]
+        - [7,4,"c"]
+        - [8,1,"c"]
+        - [8,2,"c"]
+        - [8,3,"c"]
+        - [8,4,"c"]
+        - [9,1,"c"]
+        - [9,2,"c"]
+        - [9,3,"c"]
+        - [9,4,"c"]
+        - [10,1,"c"]
+        - [10,2,"c"]
+        - [10,3,"c"]
+        - [10,4,"c"]
+        - [11,1,"c"]
+        - [11,2,"c"]
+        - [11,3,"c"]
+        - [11,4,"c"]
+        - [12,1,"c"]
+        - [12,2,"c"]
+        - [12,3,"c"]
+        - [12,4,"c"]
+        - [13,1,"c"]
+        - [13,2,"c"]
+        - [13,3,"c"]
+        - [13,4,"c"]
+        - [14,1,"c"]
+        - [14,2,"c"]
+        - [14,3,"c"]
+        - [14,4,"c"]
+        - [15,1,"c"]
+        - [15,2,"c"]
+        - [15,3,"c"]
+        - [15,4,"c"]
+        - [16,1,"c"]
+        - [16,2,"c"]
+        - [16,3,"c"]
+        - [16,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 10
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[8]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[2]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"INFECTIONS AND INFESTATIONS (continued)","16 (18.6%)","13 (18.1%)"," 9 ( 9.4%)"," 38 (15.0%)"
+          0,"  VIRAL INFECTION"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[8]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[9]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"INJURY, POISONING AND PROCEDURAL COMPLICATIONS"," 4 ( 4.7%)"," 5 ( 6.9%)"," 5 ( 5.2%)"," 14 ( 5.5%)"
+          0,"  CONTUSION"," 1 ( 1.2%)"," 2 ( 2.8%)"," 1 ( 1.0%)","  4 ( 1.6%)"
+          0,"  EXCORIATION"," 2 ( 2.3%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  4 ( 1.6%)"
+          0,"  FACIAL BONES FRACTURE"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  FALL"," 1 ( 1.2%)"," 1 ( 1.4%)"," 2 ( 2.1%)","  4 ( 1.6%)"
+          0,"  HIP FRACTURE"," 1 ( 1.2%)"," 2 ( 2.8%)"," 0 ( 0.0%)","  3 ( 1.2%)"
+          0,"  JOINT DISLOCATION"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  SKIN LACERATION"," 1 ( 1.2%)"," 0 ( 0.0%)"," 2 ( 2.1%)","  3 ( 1.2%)"
+          0,"  WOUND"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[36]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        - [7,1,"c"]
+        - [7,2,"c"]
+        - [7,3,"c"]
+        - [7,4,"c"]
+        - [8,1,"c"]
+        - [8,2,"c"]
+        - [8,3,"c"]
+        - [8,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 11
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[17]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"INVESTIGATIONS","10 (11.6%)"," 5 ( 6.9%)"," 7 ( 7.3%)"," 22 ( 8.7%)"
+          0,"  BIOPSY"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  BIOPSY PROSTATE"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  BLOOD ALKALINE PHOSPHATASE INCREASED"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  BLOOD CHOLESTEROL INCREASED"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  BLOOD CREATINE PHOSPHOKINASE INCREASED"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  BLOOD GLUCOSE INCREASED"," 0 ( 0.0%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  BLOOD URINE PRESENT"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  BODY TEMPERATURE INCREASED"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  CYSTOSCOPY"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  ELECTROCARDIOGRAM ST SEGMENT DEPRESSION"," 4 ( 4.7%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  5 ( 2.0%)"
+          0,"  ELECTROCARDIOGRAM T WAVE AMPLITUDE DECREASED"," 1 ( 1.2%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  ELECTROCARDIOGRAM T WAVE INVERSION"," 2 ( 2.3%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  4 ( 1.6%)"
+          0,"  HEART RATE INCREASED"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  HEART RATE IRREGULAR"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  NASAL MUCOSA BIOPSY"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  WEIGHT DECREASED"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[68]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        - [7,1,"c"]
+        - [7,2,"c"]
+        - [7,3,"c"]
+        - [7,4,"c"]
+        - [8,1,"c"]
+        - [8,2,"c"]
+        - [8,3,"c"]
+        - [8,4,"c"]
+        - [9,1,"c"]
+        - [9,2,"c"]
+        - [9,3,"c"]
+        - [9,4,"c"]
+        - [10,1,"c"]
+        - [10,2,"c"]
+        - [10,3,"c"]
+        - [10,4,"c"]
+        - [11,1,"c"]
+        - [11,2,"c"]
+        - [11,3,"c"]
+        - [11,4,"c"]
+        - [12,1,"c"]
+        - [12,2,"c"]
+        - [12,3,"c"]
+        - [12,4,"c"]
+        - [13,1,"c"]
+        - [13,2,"c"]
+        - [13,3,"c"]
+        - [13,4,"c"]
+        - [14,1,"c"]
+        - [14,2,"c"]
+        - [14,3,"c"]
+        - [14,4,"c"]
+        - [15,1,"c"]
+        - [15,2,"c"]
+        - [15,3,"c"]
+        - [15,4,"c"]
+        - [16,1,"c"]
+        - [16,2,"c"]
+        - [16,3,"c"]
+        - [16,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 12
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[7]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"METABOLISM AND NUTRITION DISORDERS"," 6 ( 7.0%)"," 2 ( 2.8%)"," 1 ( 1.0%)","  9 ( 3.5%)"
+          0,"  DECREASED APPETITE"," 1 ( 1.2%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  2 ( 0.8%)"
+          0,"  DEHYDRATION"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  DIABETES MELLITUS"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  FOOD CRAVING"," 1 ( 1.2%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  HYPONATRAEMIA"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  INCREASED APPETITE"," 1 ( 1.2%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  2 ( 0.8%)"
+        cell_alignment_overrides[28]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 13
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[8]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[10]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS"," 4 ( 4.7%)"," 7 ( 9.7%)"," 7 ( 7.3%)"," 18 ( 7.1%)"
+          0,"  ARTHRALGIA"," 1 ( 1.2%)"," 1 ( 1.4%)"," 2 ( 2.1%)","  4 ( 1.6%)"
+          0,"  ARTHRITIS"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  BACK PAIN"," 1 ( 1.2%)"," 3 ( 4.2%)"," 1 ( 1.0%)","  5 ( 2.0%)"
+          0,"  FLANK PAIN"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  MUSCLE SPASMS"," 0 ( 0.0%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  MUSCULAR WEAKNESS"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  MYALGIA"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  PAIN IN EXTREMITY"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  SHOULDER PAIN"," 1 ( 1.2%)"," 0 ( 0.0%)"," 2 ( 2.1%)","  3 ( 1.2%)"
+        cell_alignment_overrides[40]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        - [7,1,"c"]
+        - [7,2,"c"]
+        - [7,3,"c"]
+        - [7,4,"c"]
+        - [8,1,"c"]
+        - [8,2,"c"]
+        - [8,3,"c"]
+        - [8,4,"c"]
+        - [9,1,"c"]
+        - [9,2,"c"]
+        - [9,3,"c"]
+        - [9,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[4]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"NEOPLASMS BENIGN, MALIGNANT AND UNSPECIFIED (INCL CYSTS AND POLYPS)"," 0 ( 0.0%)"," 1 ( 1.4%)"," 2 ( 2.1%)","  3 ( 1.2%)"
+          0,"  COLON CANCER"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  MALIGNANT FIBROUS HISTIOCYTOMA"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  PROSTATE CANCER"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[16]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 14
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[17]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"NERVOUS SYSTEM DISORDERS"," 8 ( 9.3%)","23 (31.9%)","22 (22.9%)"," 53 (20.9%)"
+          0,"  AMNESIA"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  BALANCE DISORDER"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  BURNING SENSATION"," 0 ( 0.0%)"," 2 ( 2.8%)"," 0 ( 0.0%)","  2 ( 0.8%)"
+          0,"  COGNITIVE DISORDER"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  COMPLEX PARTIAL SEIZURES"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  COORDINATION ABNORMAL"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  DIZZINESS"," 2 ( 2.3%)","10 (13.9%)"," 9 ( 9.4%)"," 21 ( 8.3%)"
+          0,"  HEADACHE"," 3 ( 3.5%)"," 5 ( 6.9%)"," 3 ( 3.1%)"," 11 ( 4.3%)"
+          0,"  HEMIANOPIA HOMONYMOUS"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  HYPERSOMNIA"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  LETHARGY"," 0 ( 0.0%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  PARAESTHESIA"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  PARAESTHESIA ORAL"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  PARKINSON'S DISEASE"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  PAROSMIA"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  PARTIAL SEIZURES WITH SECONDARY GENERALISATION"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[68]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        - [7,1,"c"]
+        - [7,2,"c"]
+        - [7,3,"c"]
+        - [7,4,"c"]
+        - [8,1,"c"]
+        - [8,2,"c"]
+        - [8,3,"c"]
+        - [8,4,"c"]
+        - [9,1,"c"]
+        - [9,2,"c"]
+        - [9,3,"c"]
+        - [9,4,"c"]
+        - [10,1,"c"]
+        - [10,2,"c"]
+        - [10,3,"c"]
+        - [10,4,"c"]
+        - [11,1,"c"]
+        - [11,2,"c"]
+        - [11,3,"c"]
+        - [11,4,"c"]
+        - [12,1,"c"]
+        - [12,2,"c"]
+        - [12,3,"c"]
+        - [12,4,"c"]
+        - [13,1,"c"]
+        - [13,2,"c"]
+        - [13,3,"c"]
+        - [13,4,"c"]
+        - [14,1,"c"]
+        - [14,2,"c"]
+        - [14,3,"c"]
+        - [14,4,"c"]
+        - [15,1,"c"]
+        - [15,2,"c"]
+        - [15,3,"c"]
+        - [15,4,"c"]
+        - [16,1,"c"]
+        - [16,2,"c"]
+        - [16,3,"c"]
+        - [16,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 15
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[7]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"NERVOUS SYSTEM DISORDERS (continued)"," 8 ( 9.3%)","23 (31.9%)","22 (22.9%)"," 53 (20.9%)"
+          0,"  PSYCHOMOTOR HYPERACTIVITY"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  SOMNOLENCE"," 2 ( 2.3%)"," 1 ( 1.4%)"," 3 ( 3.1%)","  6 ( 2.4%)"
+          0,"  STUPOR"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  SYNCOPE"," 0 ( 0.0%)"," 2 ( 2.8%)"," 5 ( 5.2%)","  7 ( 2.8%)"
+          0,"  SYNCOPE VASOVAGAL"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  TRANSIENT ISCHAEMIC ATTACK"," 0 ( 0.0%)"," 1 ( 1.4%)"," 2 ( 2.1%)","  3 ( 1.2%)"
+        cell_alignment_overrides[28]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 16
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[17]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"PSYCHIATRIC DISORDERS","10 (11.6%)"," 7 ( 9.7%)","11 (11.5%)"," 28 (11.0%)"
+          0,"  AGITATION"," 2 ( 2.3%)"," 0 ( 0.0%)"," 3 ( 3.1%)","  5 ( 2.0%)"
+          0,"  ANXIETY"," 0 ( 0.0%)"," 0 ( 0.0%)"," 3 ( 3.1%)","  3 ( 1.2%)"
+          0,"  COMPLETED SUICIDE"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  CONFUSIONAL STATE"," 2 ( 2.3%)"," 1 ( 1.4%)"," 3 ( 3.1%)","  6 ( 2.4%)"
+          0,"  DELIRIUM"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  DELUSION"," 1 ( 1.2%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  2 ( 0.8%)"
+          0,"  DEPRESSED MOOD"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  DISORIENTATION"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  HALLUCINATION"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  HALLUCINATION, VISUAL"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  INSOMNIA"," 2 ( 2.3%)"," 2 ( 2.8%)"," 0 ( 0.0%)","  4 ( 1.6%)"
+          0,"  IRRITABILITY"," 1 ( 1.2%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  LIBIDO DECREASED"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  LISTLESS"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  NIGHTMARE"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  RESTLESSNESS"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[68]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        - [7,1,"c"]
+        - [7,2,"c"]
+        - [7,3,"c"]
+        - [7,4,"c"]
+        - [8,1,"c"]
+        - [8,2,"c"]
+        - [8,3,"c"]
+        - [8,4,"c"]
+        - [9,1,"c"]
+        - [9,2,"c"]
+        - [9,3,"c"]
+        - [9,4,"c"]
+        - [10,1,"c"]
+        - [10,2,"c"]
+        - [10,3,"c"]
+        - [10,4,"c"]
+        - [11,1,"c"]
+        - [11,2,"c"]
+        - [11,3,"c"]
+        - [11,4,"c"]
+        - [12,1,"c"]
+        - [12,2,"c"]
+        - [12,3,"c"]
+        - [12,4,"c"]
+        - [13,1,"c"]
+        - [13,2,"c"]
+        - [13,3,"c"]
+        - [13,4,"c"]
+        - [14,1,"c"]
+        - [14,2,"c"]
+        - [14,3,"c"]
+        - [14,4,"c"]
+        - [15,1,"c"]
+        - [15,2,"c"]
+        - [15,3,"c"]
+        - [15,4,"c"]
+        - [16,1,"c"]
+        - [16,2,"c"]
+        - [16,3,"c"]
+        - [16,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 17
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[8]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[7]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"RENAL AND URINARY DISORDERS"," 4 ( 4.7%)"," 3 ( 4.2%)"," 3 ( 3.1%)"," 10 ( 3.9%)"
+          0,"  CALCULUS URETHRAL"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  DYSURIA"," 1 ( 1.2%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  INCONTINENCE"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  MICTURITION URGENCY"," 1 ( 1.2%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+          0,"  NEPHROLITHIASIS"," 1 ( 1.2%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  2 ( 0.8%)"
+          0,"  POLLAKIURIA"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[28]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[3]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"REPRODUCTIVE SYSTEM AND BREAST DISORDERS"," 2 ( 2.3%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  3 ( 1.2%)"
+          0,"  BENIGN PROSTATIC HYPERPLASIA"," 1 ( 1.2%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  2 ( 0.8%)"
+          0,"  PELVIC PAIN"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[12]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 18
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[16]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS"," 8 ( 9.3%)","10 (13.9%)"," 9 ( 9.4%)"," 27 (10.6%)"
+          0,"  ALLERGIC GRANULOMATOUS ANGIITIS"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  COUGH"," 1 ( 1.2%)"," 5 ( 6.9%)"," 5 ( 5.2%)"," 11 ( 4.3%)"
+          0,"  DYSPHONIA"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  DYSPNOEA"," 1 ( 1.2%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+          0,"  EMPHYSEMA"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  EPISTAXIS"," 0 ( 0.0%)"," 2 ( 2.8%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+          0,"  HAEMOPTYSIS"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  NASAL CONGESTION"," 3 ( 3.5%)"," 3 ( 4.2%)"," 1 ( 1.0%)","  7 ( 2.8%)"
+          0,"  PHARYNGEAL ERYTHEMA"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  PHARYNGOLARYNGEAL PAIN"," 0 ( 0.0%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  POSTNASAL DRIP"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  PRODUCTIVE COUGH"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  RALES"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  RESPIRATORY TRACT CONGESTION"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  RHINORRHOEA"," 0 ( 0.0%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+        cell_alignment_overrides[64]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        - [7,1,"c"]
+        - [7,2,"c"]
+        - [7,3,"c"]
+        - [7,4,"c"]
+        - [8,1,"c"]
+        - [8,2,"c"]
+        - [8,3,"c"]
+        - [8,4,"c"]
+        - [9,1,"c"]
+        - [9,2,"c"]
+        - [9,3,"c"]
+        - [9,4,"c"]
+        - [10,1,"c"]
+        - [10,2,"c"]
+        - [10,3,"c"]
+        - [10,4,"c"]
+        - [11,1,"c"]
+        - [11,2,"c"]
+        - [11,3,"c"]
+        - [11,4,"c"]
+        - [12,1,"c"]
+        - [12,2,"c"]
+        - [12,3,"c"]
+        - [12,4,"c"]
+        - [13,1,"c"]
+        - [13,2,"c"]
+        - [13,3,"c"]
+        - [13,4,"c"]
+        - [14,1,"c"]
+        - [14,2,"c"]
+        - [14,3,"c"]
+        - [14,4,"c"]
+        - [15,1,"c"]
+        - [15,2,"c"]
+        - [15,3,"c"]
+        - [15,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 19
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[17]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"SKIN AND SUBCUTANEOUS TISSUE DISORDERS","20 (23.3%)","39 (54.2%)","39 (40.6%)"," 98 (38.6%)"
+          0,"  ACTINIC KERATOSIS"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  ALOPECIA"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  BLISTER"," 0 ( 0.0%)"," 1 ( 1.4%)"," 5 ( 5.2%)","  6 ( 2.4%)"
+          0,"  COLD SWEAT"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  DERMATITIS CONTACT"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  DRUG ERUPTION"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  ERYTHEMA"," 8 ( 9.3%)","14 (19.4%)","14 (14.6%)"," 36 (14.2%)"
+          0,"  HYPERHIDROSIS"," 2 ( 2.3%)"," 8 (11.1%)"," 4 ( 4.2%)"," 14 ( 5.5%)"
+          0,"  PRURITUS"," 8 ( 9.3%)","25 (34.7%)","21 (21.9%)"," 54 (21.3%)"
+          0,"  PRURITUS GENERALISED"," 0 ( 0.0%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  RASH"," 5 ( 5.8%)"," 8 (11.1%)","13 (13.5%)"," 26 (10.2%)"
+          0,"  RASH ERYTHEMATOUS"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  RASH MACULO-PAPULAR"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  RASH PRURITIC"," 0 ( 0.0%)"," 2 ( 2.8%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+          0,"  SKIN EXFOLIATION"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  SKIN IRRITATION"," 3 ( 3.5%)"," 5 ( 6.9%)"," 6 ( 6.3%)"," 14 ( 5.5%)"
+        cell_alignment_overrides[68]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        - [6,1,"c"]
+        - [6,2,"c"]
+        - [6,3,"c"]
+        - [6,4,"c"]
+        - [7,1,"c"]
+        - [7,2,"c"]
+        - [7,3,"c"]
+        - [7,4,"c"]
+        - [8,1,"c"]
+        - [8,2,"c"]
+        - [8,3,"c"]
+        - [8,4,"c"]
+        - [9,1,"c"]
+        - [9,2,"c"]
+        - [9,3,"c"]
+        - [9,4,"c"]
+        - [10,1,"c"]
+        - [10,2,"c"]
+        - [10,3,"c"]
+        - [10,4,"c"]
+        - [11,1,"c"]
+        - [11,2,"c"]
+        - [11,3,"c"]
+        - [11,4,"c"]
+        - [12,1,"c"]
+        - [12,2,"c"]
+        - [12,3,"c"]
+        - [12,4,"c"]
+        - [13,1,"c"]
+        - [13,2,"c"]
+        - [13,3,"c"]
+        - [13,4,"c"]
+        - [14,1,"c"]
+        - [14,2,"c"]
+        - [14,3,"c"]
+        - [14,4,"c"]
+        - [15,1,"c"]
+        - [15,2,"c"]
+        - [15,3,"c"]
+        - [15,4,"c"]
+        - [16,1,"c"]
+        - [16,2,"c"]
+        - [16,3,"c"]
+        - [16,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 20
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[10]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[4]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"SKIN AND SUBCUTANEOUS TISSUE DISORDERS (continued)","20 (23.3%)","39 (54.2%)","39 (40.6%)"," 98 (38.6%)"
+          0,"  SKIN ODOUR ABNORMAL"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  SKIN ULCER"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  URTICARIA"," 0 ( 0.0%)"," 1 ( 1.4%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+        cell_alignment_overrides[16]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[2]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"SOCIAL CIRCUMSTANCES"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  ALCOHOL USE"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[8]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[5]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"SURGICAL AND MEDICAL PROCEDURES"," 2 ( 2.3%)"," 2 ( 2.8%)"," 1 ( 1.0%)","  5 ( 2.0%)"
+          0,"  ACROCHORDON EXCISION"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  CATARACT OPERATION"," 1 ( 1.2%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  EYE LASER SURGERY"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  SKIN LESION EXCISION"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[20]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+  - page_number: 21
+    header[2]:
+      - cells[2]: "pharmaverse test data","Page [PAGE] of [NUMPAGES]"
+        cell_alignment_codes[2]: "lr"
+        borders[0]: []
+        fields[1]: [[1,{"segments":[["text","Page "],["field","PAGE"],["text"," of "],["field","NUMPAGES"]],"tab_stops":[]}]]
+      - cells[1]: "CDISCPILOT01"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    header_paragraph_breaks_before_after: [0,1]
+    footer[4]:
+      - cells[1]: "Source: ADSL and ADAE; actual treatment groups from ADSL.TRT01A"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program Location: t_ae1.sas"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Program by: KevinS"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+      - cells[1]: "Date/Time Created   27NOV2026:22:40:39"
+        cell_alignment_codes[1]: "l"
+        borders[0]: []
+        fields[0]: []
+    footer_paragraph_breaks_before_after: [1,0]
+    body_trailing_paragraph_breaks: 0
+    omitted_blank_spacer_rows: 0
+    blocks[6]:
+      - kind: header
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0,"Table 14 - Treatment-Emergent Adverse Events by System Organ Class and Preferred Term\nStudy Population: Safety Set\n "
+        cell_alignment_overrides[1]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",10]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[2]: 5972,14084
+        rows[1]{indent_twips,c1,c2}:
+          0,""," No. of subjects (%)"
+        cell_alignment_overrides[2]{row_index,cell_index,alignment_code}:
+        - [0,0,"c"]
+        - [0,1,"c"]
+        borders[2]{row_index,cell_index,kind,side,width_twips}:
+        - [0,1,"cell","t",19]
+        - [0,1,"cell","b",19]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: header
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[1]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"System Organ Class\nPreferred Term","Placebo\n (N=86)","Xanomeline High Dose\n (N=72)","Xanomeline Low Dose\n (N=96)","Total\n (N=254)"
+        cell_alignment_overrides[4]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        borders[5]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        - [0,1,"cell","b",2]
+        - [0,2,"cell","b",2]
+        - [0,3,"cell","b",2]
+        - [0,4,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[1]{indent_twips,c1}:
+          0," "
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[5]: 5972,8000,10028,12056,14084
+        rows[6]{indent_twips,c1,c2,c3,c4,c5}:
+          0,"VASCULAR DISORDERS"," 3 ( 3.5%)"," 1 ( 1.4%)"," 3 ( 3.1%)","  7 ( 2.8%)"
+          0,"  HOT FLUSH"," 0 ( 0.0%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  1 ( 0.4%)"
+          0,"  HYPERTENSION"," 1 ( 1.2%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  2 ( 0.8%)"
+          0,"  HYPOTENSION"," 2 ( 2.3%)"," 0 ( 0.0%)"," 1 ( 1.0%)","  3 ( 1.2%)"
+          0,"  ORTHOSTATIC HYPOTENSION"," 1 ( 1.2%)"," 0 ( 0.0%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+          0,"  WOUND HAEMORRHAGE"," 0 ( 0.0%)"," 1 ( 1.4%)"," 0 ( 0.0%)","  1 ( 0.4%)"
+        cell_alignment_overrides[24]{row_index,cell_index,alignment_code}:
+        - [0,1,"c"]
+        - [0,2,"c"]
+        - [0,3,"c"]
+        - [0,4,"c"]
+        - [1,1,"c"]
+        - [1,2,"c"]
+        - [1,3,"c"]
+        - [1,4,"c"]
+        - [2,1,"c"]
+        - [2,2,"c"]
+        - [2,3,"c"]
+        - [2,4,"c"]
+        - [3,1,"c"]
+        - [3,2,"c"]
+        - [3,3,"c"]
+        - [3,4,"c"]
+        - [4,1,"c"]
+        - [4,2,"c"]
+        - [4,3,"c"]
+        - [4,4,"c"]
+        - [5,1,"c"]
+        - [5,2,"c"]
+        - [5,3,"c"]
+        - [5,4,"c"]
+        borders[0]{row_index,cell_index,kind,side,width_twips}:
+        fields[0]{row_index,cell_index,field_data}:
+      - kind: body
+        cell_right_edges[1]: 14084
+        rows[2]{indent_twips,c1}:
+          0," "
+          0,"N = Number of subjects in the safety set within each actual treatment group.\nn = Number of subjects with at least one qualifying event; percentages use the column N.\nEach subject is counted once within each SOC and once within each SOC/PT; TRTEMFL = Y defines a TEAE.\nTotal pools all actual treatment groups. SOCs and PTs are ordered alphabetically; missing coding is shown explicitly.\nContinued SOC rows repeat the same incidence for readability and must not be added across pages."
+        cell_alignment_overrides[0]{row_index,cell_index,alignment_code}:
+        borders[1]{row_index,cell_index,kind,side,width_twips}:
+        - [0,0,"cell","b",2]
+        fields[0]{row_index,cell_index,field_data}:
