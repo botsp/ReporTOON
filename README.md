@@ -30,9 +30,7 @@ Secondly, ensure Toon based on solid strcuture that contains all and same inform
 ### 3. Benchmark
 Pick some RTF files for benchmark testing to **quantify the reduction in token usage**. Here it just compare the token-consuming between RTF&toon, the (previous work)[https://github.com/toon-format/toon#using-toon-with-llms] has demonstrated that toon is a more efficient and reliable format than JSON or YAML for LLM data processing.
 
-Two mainstream LLM models(GPT 5.4, GPT6-Astra)
-
-
+Use mainstream LLM models GPT 5.4 in current stage.
 
 #### 3.1 Tokenizer Computation
 
