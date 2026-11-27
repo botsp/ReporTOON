@@ -42,6 +42,8 @@ $$D_{\\text{RTF}} = \\frac{\\text{RTF File Size (KiB)}}{\\text{Number of Pages i
 
 Token usage decreased across all tested files, with per-file reductions ranging from 51.21% to 86.96%. The overall token reduction was 77.83%, while the median per-file reduction was 68.52%. Most tested files achieved reductions between 50% and 70%
 
+Using tiktoken version 0.14.0 with the o200k_base encoding to (count)[https://github.com/botsp/ReporTOON/blob/main/converter/count_gpt54_tokens.py] token at file level.
+
 
 <img width="9600" height="2800" alt="gpt54sidebyside800dpi" src="https://github.com/user-attachments/assets/74be0e5c-5ff2-4c51-b310-3f9c6d26bf20" />
 
