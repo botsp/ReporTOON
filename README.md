@@ -55,6 +55,7 @@ Token usage decreased across all tested files, with per-file reductions ranging 
 
 
 #### 3.2 LLM prompts for benchmark:
+Example question from routine output review task:
   
   Q1.Please validate the percentage based on re-calculation of n/N from outputs, or validate statistical results of n, percentage, mean, SD, CI, Min, Max to detect abnormal numbers if possible.
   
@@ -65,5 +66,7 @@ Token usage decreased across all tested files, with per-file reductions ranging 
   Q4:How many columns, treatment group in target table, please list the N number.
 
   Q5:There are 3 incorrect calculation of percentagaes in target table, please list them.
+  ...
+  ...
 
 
