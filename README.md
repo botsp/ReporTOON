@@ -40,7 +40,7 @@ Here, we use $D_{\\text{RTF}}$ as a measure of RTF information density.
 
 $$D_{\\text{RTF}} = \\frac{\\text{RTF File Size (KiB)}}{\\text{Number of Pages in the Original Report}}$$
 
-Token usage decreased across all tested files, with per-file reductions ranging from 51.21% to 86.96%. The overall token reduction was 77.83%, while the median per-file reduction was 68.52%. Most tested files achieved reductions between 50% and 70%
+Token usage decreased across all tested files, with per-file reductions ranging from 51.21% to 86.96%. The overall token reduction was 74.98%, while the median per-file reduction was 68.52%. Most tested files achieved reductions between 50% and 70%
 
 Using tiktoken version 0.14.0 with the o200k_base encoding to [count](https://github.com/botsp/ReporTOON/blob/main/converter/count_gpt54_tokens.py) token at file level.
 
@@ -57,7 +57,7 @@ Using tiktoken version 0.14.0 with the o200k_base encoding to [count](https://gi
 
 
 #### 3.2 LLM prompts for benchmark:
-Example question from routine output review task:
+Routine output review task, for example:
   
   Q1.Please validate the percentage based on re-calculation of n/N from outputs, or validate statistical results of n, percentage, mean, SD, CI, Min, Max to detect abnormal numbers if possible.
   
