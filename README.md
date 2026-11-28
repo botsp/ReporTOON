@@ -14,6 +14,8 @@ Why Do We Need a Parser for Clinical Outputs RTF?
 
 **Why might this be an unavoidable challenge when using LLMs to process outputs?** The underlying challenge: RTF is designed for human-presentation, while LLMs process tokens within a limited context window. A parser helps bridge this gap.
 
+<img width="1236" height="724" alt="Create_a_polished__publication_ready_technical_con-1795854084207" src="https://github.com/user-attachments/assets/01052727-5442-422c-94f1-0836fe03b535" />
+
 Noted that RTF are now allowed to be integrated with unrestricted LLM. Here the benchmark used the public example ADaM dataset from R [{pharmaverseadam}](https://github.com/pharmaverse/pharmaverseadam),package .
 
 ### 1. Create a solid parser -  convert RTF to toon
